@@ -49,6 +49,7 @@ import {DemoMaterialModule} from './material'
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [LoginComponent]
 })
 export class AppModule { }

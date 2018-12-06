@@ -12,4 +12,19 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
+
+  login=true;
+  register=false;
+
+  checkpage(){
+    this.login = false;
+    this.register =true;
+
+  }
+  checkpagelogin(){
+    this.login = true;
+    this.register =false;  
+  }
+
 }
+
